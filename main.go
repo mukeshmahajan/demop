@@ -11,7 +11,7 @@ import (
   "time"
 )
 
-go func GetDetails(c *gin.Context) {
+func GetDetails(c *gin.Context) {
   router.POST("/login", Login)
   var users []user
     database.DB.Find(&users)
