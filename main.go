@@ -2,7 +2,7 @@ package main
 
 import (
   "DEMOPROJECT/person"
-   github.com/dgrijalva/jwt-go
+   "github.com/dgrijalva/jwt-go"
   "DEMOPROJECT/setdatabase"
   "github.com/gin-gonic/gin"
   "github.com/jinzhu/gorm/dialects/mysql"
